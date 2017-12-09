@@ -57,6 +57,13 @@ public class ClusterAlgorithm<T> {
         return Collections.unmodifiableList(clusters);
     }
 
+    /**
+     * @return the first cluster of the remaining ones.
+     */
+    public Cluster<T> getFirstCluster(){
+        return getClusters().iterator().next();
+    }
+
 
     /**
      * clusters the data based on linkage function
