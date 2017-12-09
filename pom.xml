@@ -4,9 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>de.malger</groupId>
+    <groupId>com.github.malger</groupId>
     <artifactId>hierarchicalclustering</artifactId>
     <version>1.0</version>
+    <packaging>jar</packaging>
     <build>
         <plugins>
             <plugin>
@@ -28,5 +29,20 @@
         </dependency>
     </dependencies>
 
+    <name>Hierarchical Clustering</name>
+    <description>A java implementation of hierarchical clustering</description>
+    <url>https://github.com/malger/Hierarchical-Clustering</url>
+
+    <licenses>
+        <license>
+            <name>The MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/malger/Hierarchical-Clustering</url>
+    </scm>
 
 </project>
