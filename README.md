@@ -1,7 +1,7 @@
 # [Hierarchical-Clustering](https://github.com/malger/Hierarchical-Clustering)
 A java implementation of hierarchical clustering. No external dependencies needed, generic implementation.
 
-## Supports diffrent Linkage approaches:
+## Supports different Linkage approaches:
 * Average Linkage
 * Single Linkage
 * Your Linkage function (if you extend the Linkage class)
