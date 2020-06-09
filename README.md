@@ -27,5 +27,5 @@ Top Cluster distance: 8.0
 
 ## Implementation Details:
 * Clusters are modeled similar to a binary tree (a cluster contains right,left child)
-* Linkage values between all Pairs are hashed
+* Linkage values between all Pairs are cached
 
